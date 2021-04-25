@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Color Game</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+
+        <h1>The Great 
+            <br>
+            <span id="colorDisplay">rgb</span>
+            <br> 
+            Guessing Game
+        </h1>
+        
+        <div id="strip">
+            <button id="reset">New Colors</button>
+            <span id="response"></span>
+            <button class="mode">Easy</button>
+            <button class="mode selected">Medium</button>
+            <button class="mode">Hard</button>
+        </div>
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
